@@ -1,7 +1,7 @@
 API
 ===
 
-.. automodule:: pythontemplate
+.. automodule:: wmtsa
    :members:
    :undoc-members:
    :show-inheritance:

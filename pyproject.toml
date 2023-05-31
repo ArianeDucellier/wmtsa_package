@@ -8,18 +8,18 @@ vcs = "git"
 style = "semver"
 
 [tool.poetry]
-name = "pythontemplate"
+name = "wmtsa"
 version = "0.0.0"  # Do not change, let poetry-dynamic-versioning handle it.
-homepage = "https://github.com/GIT_USERNAME/GIT_REPONAME"
-repository = "https://github.com/GIT_USERNAME/GIT_REPONAME"
+homepage = "https://github.com/ArianeDucellier/wmtsa_package"
+repository = "https://github.com/ArianeDucellier/wmtsa_package"
 license = "Apache-2.0"
 description = ""
-authors = ["YOUR_NAME_HERE"]
+authors = ["ArianeDucellier"]
 readme = "README.rst"
-packages = [{include = "pythontemplate"}]
+packages = [{include = "wmtsa"}]
 
 [tool.poetry.scripts]
-pythontemplate = "pythontemplate.cli.main:run_app"
+wmtsa = "wmtsa.cli.main:run_app"
 
 [tool.poetry.dependencies]
 # Be as loose as possible if writing a library.
